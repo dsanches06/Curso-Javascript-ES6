@@ -23,7 +23,9 @@ function randomNumber() {
 function divisao(a, b = randomNumber()) {
   return a / b;
 }
+
 console.log(divisao(4, 2));
 console.log(divisao(5));
 console.log(divisao(20));
 console.log(divisao(9, 3));
+
