@@ -65,7 +65,7 @@ describe("Test math class mod", function () {
 /* comparar objetos */
 describe("Test equal objects", function () {
   /*  teste com mocha e chai */
-  it.only("Test equal objects", function () {
+  it("Test equal objects", function () {
     const obj1 = {
       name: "Danilson Sanches",
     };

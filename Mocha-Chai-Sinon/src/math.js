@@ -16,6 +16,13 @@ class Math {
   mod(a, b) {
     return a % b;
   }
+  printSum(req, res, a, b) {
+    console.log(res.load("index", a + b));
+  }
+
+  printMultiply(req, res, a, b) {
+    console.log(res.teste("index", a + b));
+  }
 }
 
 module.exports = Math;
