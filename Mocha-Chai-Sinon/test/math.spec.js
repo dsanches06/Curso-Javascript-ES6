@@ -14,12 +14,9 @@ describe("Test math class", () => {
 
 /* propriedades do mocha com done*/
 describe("Test math class", function () {
-  it("Multiply of two numbers", function (done) {
-    this.timeout(1010);
-
+  it("Multiply of two numbers", function () {
     math.multiply(4, 3, (value) => {
       assert.strictEqual(value, 12);
-      done();
     });
   });
 });
